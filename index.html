@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h1>Quiz App</h1>
+
+            <h4>Number of Questions you'd like to answer</h4>
+            <select id="questionAmount">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+            </select>
+            
+            <a class="btn" href="/game.html" onclick="playButton(event)">Play</a>
+            <a class="btn" href="/login.html" onclick="playButton(event)">Login</a>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
